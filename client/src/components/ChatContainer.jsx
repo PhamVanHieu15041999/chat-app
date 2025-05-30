@@ -3,7 +3,7 @@ import assets from "../assets/assets";
 import { useEffect } from "react";
 import { formatMessageTime } from "../lib/utils";
 import { ChatContext } from "../../context/ChatContext";
-import { AuthContext } from "../../context/authContext";
+import { AuthContext } from "../../context/AuthContext";
 import toast from "react-hot-toast";
 const ChatContainer = () => {
   const { messages, selectUser, setSelectUser, sendMessage, getMessages } =
